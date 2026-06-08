@@ -1,6 +1,6 @@
 package com.myticalruben.inventory_management_api.dto;
 
-public record RolDTO(
+public record RoleDTO(
         Integer id,
-        String name
+        String roleName
 ) { }

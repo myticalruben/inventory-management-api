@@ -7,6 +7,6 @@ public record UserDTO(
         String username,
         String email,
         String password,
-        RolDTO rol,
+        RoleDTO rol,
         Instant created_at
 ) {}
